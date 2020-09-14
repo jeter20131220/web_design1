@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    height: 2000px;
+    backdrop-filter:brightness(85%);
+
+}
+
+
+#banner1{
+    text-align: center;
+
+}
+
+#banner1 nav{
+    padding:30px;
+    text-align: center;
+    
+}
+
+#banner1 a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 24px;
+    padding: 0 30px;
+    transition: 0.3s;
+    
+}
+#banner1 a:hover{
+    color:#aaa;
+
+}
+
+#banner1 hr{
+    width: 900px;
+    margin: 0 auto;
+
+}
+
+#banner2 h1{
+    text-align: center;  
+    font-size: 96px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    color:#fff;
+    margin-top: 180px;
+}
+
+#banner3{
+    text-align: center;
+}
+
+#banner3 h1 {
+    text-align: center;  
+    font-size: 96px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    color:#fff;
+}
+
+#banner3 p{
+    text-align: center;
+    color:#fff;
+    font-size:24px;
+    padding: 30px;
+    margin: 15px;
+}
+
+#banner3 hr{
+    width: 300px;
+    margin: 15px auto;
+    height: 3px;
+    border:none;
+    background-color: #fff;
+
+}
+
+a.button{
+    text-decoration: none;
+    border:1px solid #fff; 
+    padding:15px 50px;
+    color:#fff;
+    transition:0.5s;
+    font-weight: 900;
+    
+}
+a.button:hover {
+    color:#aaa;
+} 
+
